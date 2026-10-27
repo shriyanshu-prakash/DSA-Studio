@@ -1295,5 +1295,6 @@ class DSAStudio:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    root.iconbitmap("assets/icon.ico")
     app = DSAStudio(root)
     root.mainloop()
